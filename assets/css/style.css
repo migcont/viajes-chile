@@ -1,3 +1,18 @@
 body{
-
+background-color: #222;
+color:#ffffff;
+}
+a{
+  color:#fff!important;
+}
+h2{
+  font-size:1.4em;
+  color:#fff;
+}
+h3, .contactos{
+  background-color: #3fa59d;
+  color:#fff;
+}
+h5, .card-text{
+  color:#6c757d
 }
