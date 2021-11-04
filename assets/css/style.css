@@ -1,4 +1,5 @@
 body{
+font-family: 'Roboto', sans-serif;
 background-color: #222;
 color:#ffffff;
 }
@@ -9,10 +10,23 @@ h2{
   font-size:1.4em;
   color:#fff;
 }
-h3, .contactos{
+h3, .contactos, footer{
   background-color: #3fa59d;
   color:#fff;
 }
-h5, .card-text{
+h5{
   color:#6c757d
+}
+.contacto, .contacto h2{
+  background-color: white;
+  color:gray;
+}
+.logo{
+  width: 1.5em;
+}
+.card-body{
+    background-color: #3fa59d;
+}
+.card-title{
+  color:#fff;
 }
