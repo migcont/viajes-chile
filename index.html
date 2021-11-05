@@ -79,7 +79,7 @@
           </div>
           <div class="col-sm">
             <p>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <h3 class="text-center"><i class="fas fa-exclamation-triangle"></i></h3>
+            <h3 class="text-center"><i class="fas fa-mountain"></i></h3>
           </div>
           <div class="col-sm">
             <h3 class="text-center"><i class="fas fa-route"></i></h3>
@@ -128,65 +128,66 @@
           <div data-tf-widget="YosaBkDc" style="width:100%;height:300px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
           <!-- <h2 class="text-center  my-3">Hola, gracias por contactarnos</h2>
           <p class="text-center  my-3"><button type="button" class="btn btn-primary">comenzar</button> pulsa <strong>Enter</strong><i class="fas fa-share fa-xs fa-rotate-180"></i><p>
-          </div> -->
-        </div>
-      </main>
-      <footer class="container-fluid">
-        <div class="contactos p-2 container">
-          <div class="row">
-            <div class="col-4">
-              <h2 class="mx-5 mr-auto m-1">Viajes Chiles</h2>
-            </div>
-            <div class="col-8 d-flex justify-content-end">
-              <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter-square fa-2x mx-3"></i></a>
-              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x mx-3"></i></a>
-              <a href="https://cl.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x mx-3"></i></a>
-              <a href="https://github.com/" target="_blank"><i class="fab fa-github-square fa-2x ml-3 mr-5"></i></a>
-            </div>
+        </div> -->
+      </div>
+    </main>
+    <footer class="container-fluid">
+      <div class="contactos p-2 container">
+        <div class="row">
+          <div class="col-4">
+            <h2 class="mx-5 mr-auto m-1">Viajes Chiles</h2>
+          </div>
+          <div class="col-8 d-flex justify-content-end">
+            <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter-square fa-2x mx-3"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x mx-3"></i></a>
+            <a href="https://cl.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x mx-3"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="fab fa-github-square fa-2x ml-3 mr-5"></i></a>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 
-    <!-- FontAwesome kit -->
-    <script src="https://kit.fontawesome.com/99f6481b29.js" crossorigin="anonymous"></script>
+  <!-- FontAwesome kit -->
+  <script src="https://kit.fontawesome.com/99f6481b29.js" crossorigin="anonymous"></script>
 
-    <!--mi script-->
-    <script src="assets/js/script.js" charset="utf-8"></script>
+  <!--mi script-->
+  <script src="assets/js/script.js" charset="utf-8"></script>
 
-    <!-- cambio de color de la barra de menu--
-    <script>
-    $(window).scroll(function(){
-      if ($("#menu").offset().top > 65) {
-         $("#menu").addClass("bg-inverse");
-      } else {
-          $("#menu").removeClass("bg-inverse");
+  <!-- cambio de color de la barra de menu-->
+  <script>
+  $(document).scroll(function(){
+    if ($("#menu").offset().top > 65) {
+      $("#menu").addClass("bg-inverse");
+    } else {
+      $("#menu").removeClass("bg-inverse");
+    }
+  });
+  </script>
+  <!---->
+
+  <!--scroll smooth-->
+  <script>
+  $(document).ready(function(){
+    $("a").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
       }
     });
-    </script> -->
+  });
+  </script>
 
-    <!--scroll smooth-->
-    <script>
-    $(document).ready(function(){
-      $("a").on('click', function(event) {
-        if (this.hash !== "") {
-          event.preventDefault();
-          var hash = this.hash;
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-            window.location.hash = hash;
-          });
-        }
-      });
-    });
-    </script>
-
-  </body>
-  </html>
+</body>
+</html>
