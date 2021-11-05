@@ -70,7 +70,7 @@
   </header>
   <main>
     <div class="container d-none d-sm-block" id="quienessomos">
-      <h2 class="text-center my-5">¿Quiénes Somos?</h2>
+      <h2 class="text-center my-5" data-toggle="tooltip" title="Nosotros">¿Quiénes Somos?</h2>
       <div class="container border-top border-info">
         <div class="row my-5">
           <div class="col-sm">
@@ -89,7 +89,7 @@
       </div>
     </div>
     <div class="container mt-4" id="destacados">
-      <h2 class="text-center">Destacados</h2>
+      <h2 class="text-center" data-toggle="tooltip" title="nuestros tour!">Destacados</h2>
       <div class="card-deck container border-top border-info">
         <div class="card mt-3">
           <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
@@ -161,7 +161,7 @@
   <script src="assets/js/script.js" charset="utf-8"></script>
 
   <!-- cambio de color de la barra de menu-->
-  <script>
+  <!-- <script>
   $(document).scroll(function(){
     if ($("#menu").offset().top > 65) {
       $("#menu").addClass("bg-inverse");
@@ -169,9 +169,13 @@
       $("#menu").removeClass("bg-inverse");
     }
   });
-  </script>
+  </script> -->
   <!---->
-
+  <script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+  </script>
   <!--scroll smooth-->
   <script>
   $(document).ready(function(){
